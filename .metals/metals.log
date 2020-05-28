@@ -118,3 +118,5 @@ java.lang.NullPointerException
 2020.05.28 22:11:50 WARN  no build target for: F:\scala test\Q5.scala
 2020.05.28 22:12:02 WARN  no build target for: F:\scala test\Q6.scala
 2020.05.28 22:27:53 WARN  no build target for: F:\scala test\Q6.scala
+May 28, 2020 10:34:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
