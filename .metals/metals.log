@@ -1,0 +1,120 @@
+2020.05.28 17:15:53 INFO  started: Metals version 0.9.0 in workspace 'F:\scala test'
+2020.05.28 17:15:54 INFO  time: initialize in 0.34s
+2020.05.28 17:15:55 WARN  no build tool detected in workspace 'F:\scala test'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.05.28 17:15:55 INFO  no build target: using presentation compiler with only scala-library
+2020.05.28 17:15:57 WARN  no build target for: F:\scala test\test.scala
+2020.05.28 17:16:56 WARN  no build target for: F:\scala test\test.scala
+May 28, 2020 5:17:08 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 28, 2020 5:17:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:138)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:156)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+May 28, 2020 5:17:35 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 28, 2020 5:17:37 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+May 28, 2020 5:17:37 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:44)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.05.28 17:21:16 WARN  no build target for: F:\scala test\test.scala
+2020.05.28 17:22:54 WARN  no build target for: F:\scala test\test.scala
+2020.05.28 17:23:13 WARN  no build target for: F:\scala test\test.scala
+May 28, 2020 5:23:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.05.28 18:05:21 WARN  no build target for: F:\scala test\Q1.scala
+2020.05.28 18:18:52 WARN  no build target for: F:\scala test\Q1.scala
+2020.05.28 18:19:11 WARN  no build target for: F:\scala test\Q2.scala
+2020.05.28 18:20:50 WARN  no build target for: F:\scala test\Q1.scala
+2020.05.28 19:24:42 WARN  no build target for: F:\scala test\Q2.scala
+2020.05.28 19:24:52 WARN  no build target for: F:\scala test\Q3.scala
+May 28, 2020 7:25:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1393
+May 28, 2020 7:25:50 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 28, 2020 7:25:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:138)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:156)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+2020.05.28 19:31:06 WARN  no build target for: F:\scala test\Q3.scala
+2020.05.28 19:31:18 WARN  no build target for: F:\scala test\Q4.scala
+2020.05.28 19:40:53 WARN  no build target for: F:\scala test\Q4.scala
+2020.05.28 19:41:06 WARN  no build target for: F:\scala test\Q5.scala
+2020.05.28 22:02:28 WARN  no build target for: F:\scala test\Q5.scala
+2020.05.28 22:02:33 WARN  no build target for: F:\scala test\Q5.scala
+2020.05.28 22:11:50 WARN  no build tool detected in workspace 'F:\scala test'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.05.28 22:11:50 WARN  no build target for: F:\scala test\Q5.scala
+2020.05.28 22:12:02 WARN  no build target for: F:\scala test\Q6.scala
+2020.05.28 22:27:53 WARN  no build target for: F:\scala test\Q6.scala
